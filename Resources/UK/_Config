@@ -1,0 +1,25 @@
+| TBKeyList Configure definitions
+
+Title = TBKeyList
+Width = 800
+Height = 100
+CheckVersion = 0.46
+File = <Choices$Write>.TBKeyList.Choices
+Separator = :
+Remark = #
+Boolean = 2
+
+[Main]
+
+Icon = Window
+Text = Main
+Width = 220
+
+{
+ Name = TEMPLATE
+ Text = Template
+ Type = Menu
+ Menu = #Template;file;<TBKeyList$Dir>.Templates
+ Default = StrongHelp
+ Help = Select the template to be used.
+}

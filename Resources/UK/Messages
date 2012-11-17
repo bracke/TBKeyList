@@ -1,0 +1,55 @@
+# StrongEd$Mode=Message
+_TaskName:TBKeyList
+VERS:1.02 (2005-03-13)
+# Obey file error messages
+DESCRIPTION:Create list of shortcuts used in Res file
+RO:TBKeyList needs RISC OS 3 or later.
+TASKEXIST:You can only have one copy of TBKeyList running at once.
+NESTED:TBKeyList requires the Nested Window Manager. This can be obtained by downloading the Universal Boot sequence from http://acorn.riscos.com/
+MODCLIB:You need the SharedCLibrary to run TBKeyList.
+MODTB:You need 'Toolbox' module (v1.71) to run TBKeyList.
+MODCM:You need the 'ColourMenu' module (v0.24) to run TBKeyList.
+MODCD:You need the 'ColourDBox' module (v0.23) to run TBKeyList.
+MODDCS:You need the 'DCS' module (v1.16) to run TBKeyList.
+MODFI:You need the 'FileInfo' module (v0.22) to run TBKeyList.
+MODFB:You need the 'FontDBox' module (v0.22) to run TBKeyList.
+MODFM:You need the 'FontMenu' module (v0.27) to run TBKeyList.
+MODIB:You need the 'IconBar' module (v1.22) to run TBKeyList.
+MODMU:You need the 'Menu' module (v0.40) to run TBKeyList.
+MODPT:You need the 'PrintDBox' module (v0.20) to run TBKeyList.
+MODPI:You need the 'ProgInfo' module (v0.20) to run TBKeyList.
+MODSAVE:You need the 'SaveAs' module (v0.22) to run TBKeyList.
+MODSC:You need the 'Scale' module (v0.19) to run TBKeyList.
+MODWD:You need the 'Window' module (v1.79) to run TBKeyList.
+MODTA:You need the 'ToolAction' module (v0.23) to run TBKeyList.
+MODTG:You need the 'TextGadgets' module (v0.49) to run TBKeyList.
+MODURI:You need the 'URI' module to run TBKeyList.
+MODTW:You need the taskwindow module to run TBKeyList.
+#
+OVERWRITE:File already exists. Do you want to overwrite it?
+OVERWRITEBUTTON:Overwrite
+# Error messages
+MSGCLOSED:Messages file is closed. %0
+CHOICES:Error reading choices. %0
+CONFIGURE:Error running !Configure. %0
+UNTRAPPED:Untrapped exception. %0
+CONFIX:ConfiX can not be found. Please make sure the filer has seen it before running TBKeyList.
+BUGZQUERY:Error answering a query from Bugz. %0
+BUGZCREATE:Error creating Bugz report. %0
+NOBUGZ:Please locate the Bugz application. %0
+TOOLBOXERROR:Error processing Toolbox Error. %0
+HOMEPAGE:Error viewing Homepage. %0
+SENDEMAIL:Error sending E-Mail. %0
+MQUIT:Error receiving 'Quit' Message. %0
+TQUIT:Error receiving Toolbox 'Quit' Message. %0
+VIEWMANUAL:Error opening Manual. %0
+VIEWIHELP:Error running starting interactive help. %0
+VIEWCHAPTER:Error opening chapter in manual. %0
+GENLIST:Error while parsing Res file. %0
+PARSEERROR:Error while parsing template. %0
+NORESFILE:TBKeyList only handles Resource (&fae) files. %0
+SOURCENOTFOUND:The source path is wrong please correct it and try again.
+TARGETNOTFOUND:The target path is wrong (non-existing directory) please correct it and try again.
+TEMPLATENOTFOUND:The template name is wrong please correct it and try again.
+# Dummy
+TEMPLATE:

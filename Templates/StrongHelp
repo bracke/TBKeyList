@@ -1,0 +1,12 @@
+Shortcuts
+#Parent !Root
+# StrongEd$Mode=StrongHelp
+#fh3:Shortcuts
+#fredtext = rgb 255,0,0
+#Line
+#wrap off
+@@TABLE@@
+In window\t{fcite}@_WINDOW_@{f}\t{fcode}@_KEY_@{f}\tshows\t@_SHOW_@ and raises \t{fcode}@_EVENT_@{f}.
+@@END_TABLE@@
+#wrap on
+

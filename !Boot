@@ -1,0 +1,12 @@
+Run <Obey$Dir>.Resources.ResFind TBKeyList
+|
+Set TBKeyList$Help TBKeyListRes:TBKeyList
+Set TBKeyList$Version "1.02"
+Set TBKeyList$Web "http://www.arcsite.de/hp/bracke/"
+Set TBKeyList$Title "TBKeyList"
+Set TBKeyList$Publisher "Bent Bracke"
+Set TBKeyList$Description "Create list of shortcuts used in Res file."
+Run <TBKeyList$Dir>.Resources.ReadToken TBKeyListRes:Messages DESCRIPTION
+do Set TBKeyList$Description <ReadToken$Value>
+|
+Iconsprites <TBKeyList$Dir>.!Sprites

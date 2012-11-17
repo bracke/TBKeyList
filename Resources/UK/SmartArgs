@@ -1,0 +1,34 @@
+ Description
+
+  This package is designed to simplify the use of command 
+  line arguments for controlling a program. The built in
+  Ada facilities for command line argument processing are 
+  very basic. This package provide a higher level facility
+  for dealing with command lines. It is similar in purpose to GNU
+  getopts however if one is expecting this package to act
+  in the same manner they will be disappointed. 
+
+  The concept that this package uses is that client programs
+  make a series of calls to "create" the arguments that
+  the program can process. Once all of the parameters
+  are registered locally with this package then a simple
+  unified help output can be created and the client program
+  can refer to the command line arguments in a more meaningful
+  manner than Ada.Command_Line.Argument(4);
+
+Note that this package is distributed under the terms of what
+is typically referred to as that GNAT Modified GPL.
+
+Each file contains the following exception to the GPL :
+
+As a special exception, if other files instantiate generics from  
+this unit, or you link this unit with other files to produce an   
+executable, this  unit  does not  by itself cause  the resulting  
+executable to be covered by the GNU General Public License. This  
+exception does not however invalidate any other reasons why the   
+executable file  might be covered by the  GNU Public License.     
+
+
+Revision History
+
+0.5 - 7/26/04 Fist public release of library
