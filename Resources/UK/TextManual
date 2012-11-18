@@ -6,16 +6,16 @@
         Version 1.02 (2005-03-13)
         ----------------------------------------------------------------------
     è   Introduction     è Reporting Bugs
-    è   Installation     è Language      
-    è   Starting         è History       
-    è   Commandline-use  è Credits       
-    è   Problems         è License       
+    è   Installation     è Language
+    è   Starting         è History
+    è   Commandline-use  è Credits
+    è   Problems         è License
 
     è   Content
     è   Index
     è   Textmanual
   ----------------------------------------------------------------------------
-  Email (bbracke@web.de)
+  Email (bent@bracke.dk)
   Webpage
   ============================================================================
 
@@ -88,7 +88,7 @@
     to process multiple Res files or to change the produced list.
     --------------------------------------------------------------------------
     The syntax:
-    !TBKeyList -s <source> -t <target> [-temp <template>] 
+    !TBKeyList -s <source> -t <target> [-temp <template>]
 
     Source
     The full path of the resource file.
